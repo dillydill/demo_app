@@ -22,3 +22,6 @@ group :production do
 	gem 'pg', '0.17.1'
 	gem 'rails_12factor', '0.0.3'
 end
+
+# Zoneinfo file for Windows
+gem 'tzinfo-data', platforms: [:mingw, :mswin] 
